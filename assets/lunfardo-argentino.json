@@ -1,0 +1,132 @@
+{
+  "examples": [
+    {
+      "text": "Che, ¿viste la película de ayer? La verdad que estuvo re buena, me encantó el final.",
+      "features": [
+        "che",
+        "vos form",
+        "re as intensifier",
+        "casual conversation"
+      ]
+    },
+    {
+      "text": "¿De dónde sos vos? Yo soy de Capital, pero ahora vivo en Palermo hace banda.",
+      "features": ["vos conjugation", "barrios porteños", "banda as quantity"]
+    },
+    {
+      "text": "Pibe, ¿me hacés un favor? Estoy esperando el bondi hace un montón.",
+      "features": ["pibe", "vos form", "bondi", "casual request"]
+    },
+    {
+      "text": "¡Qué piola tu nuevo depto! ¿Está cerca del subte? Re linda la zona.",
+      "features": ["piola", "depto", "subte", "re as adjective"]
+    },
+    {
+      "text": "Dale, nos juntamos el finde en el café de siempre. Te aviso cualquier cosa.",
+      "features": ["dale", "finde", "informal planning"]
+    },
+    {
+      "text": "La verdad que el recital estuvo bárbaro, tocaron todos los temas nuevos.",
+      "features": ["bárbaro", "recital", "casual review"]
+    },
+    {
+      "text": "Che, ¿vamos a tomar unos mates al parque? Está re lindo el día.",
+      "features": ["che", "mates", "social invitation"]
+    },
+    {
+      "text": "Mi vieja hizo alto asado el domingo, venite la próxima.",
+      "features": [
+        "vieja for mom",
+        "alto as intensifier",
+        "asado",
+        "social invitation"
+      ]
+    },
+    {
+      "text": "¿Te copa ir al cine mañana? Estrenan una peli buenísima.",
+      "features": ["te copa", "peli", "casual plan"]
+    },
+    {
+      "text": "Está re fresquito hoy, abrigate que hace un frío bárbaro.",
+      "features": [
+        "re as intensifier",
+        "diminutive",
+        "bárbaro",
+        "weather comment"
+      ]
+    }
+  ],
+  "commonFeatures": {
+    "pronouns": ["vos", "che"],
+    "verbs": {
+      "voseo": ["sos", "tenés", "querés", "sabés", "podés", "venís"],
+      "imperative": ["vení", "mirá", "tomá", "dale", "avisá"]
+    },
+    "casual_vocabulary": {
+      "nouns": ["pibe", "bondi", "subte", "depto", "finde", "peli", "mate"],
+      "adjectives": ["piola", "bárbaro/a", "copado/a", "buenísimo/a"],
+      "intensifiers": ["re", "alto/a", "muy", "banda"],
+      "time_expressions": ["un toque", "hace banda", "recién"]
+    },
+    "expressions": [
+      "dale",
+      "ni hablar",
+      "todo bien",
+      "de una",
+      "está bueno",
+      "¿Qué hacés?",
+      "¿Todo bien?",
+      "¡Qué copado!"
+    ],
+    "social_contexts": [
+      "mate",
+      "asado",
+      "juntadas",
+      "salidas",
+      "cine",
+      "recitales",
+      "parque",
+      "café"
+    ],
+    "food_and_drinks": [
+      "mate",
+      "asado",
+      "empanadas",
+      "milanesas",
+      "facturas",
+      "medialunas"
+    ],
+    "places": [
+      "Capital",
+      "barrio",
+      "plaza",
+      "parque",
+      "subte",
+      "bondi",
+      "café"
+    ],
+    "slang": {
+      "nouns": [
+        "guita",
+        "laburo",
+        "morocho",
+        "mina",
+        "pibe",
+        "bondi",
+        "subte",
+        "depto",
+        "finde",
+        "peli",
+        "mate"
+      ]
+    }
+  },
+  "socialSituations": {
+    "greetings": ["Che", "Hola", "¿Qué hacés?", "¿Todo bien?"],
+    "invitations": ["¿Te copa...?", "¿Querés...?", "Venite a...", "Dale, vení"],
+    "reactions": {
+      "positive": ["¡Qué bueno!", "¡Bárbaro!", "¡Genial!", "¡Qué copado!"],
+      "negative": ["Qué mal", "Qué bajón", "Una lástima", "Qué macana"]
+    }
+  }
+}
